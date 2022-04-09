@@ -303,7 +303,7 @@ h1 {
 }
 
 .trending__frame,
-.trending__frame-small {
+.trending__frame-popular {
   position: relative;
   border-radius: 1.6rem;
   display: flex;
@@ -317,7 +317,7 @@ h1 {
   background-position: center;
 }
 
-.trending__frame-small {
+.trending__frame-popular {
   width: 30%;
   height: 19.2rem;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/trending02.jpeg') no-repeat;
@@ -386,18 +386,18 @@ h1 {
   border-radius: 1.6rem;
 }
 
-.trending__frame-small .trending__footer {
+.trending__frame-popular .trending__footer {
   height: 3.8rem;
   padding-left: 5rem;
 }
 
-.trending__frame-small .trending__header {
+.trending__frame-popular .trending__header {
   font-weight: 700;
   font-size: 1rem;
   line-height: 117%;
 }
 
-.trending__frame-small .trending__date {
+.trending__frame-popular .trending__date {
   font-weight: 700;
   font-size: .8rem;
   line-height: 117%;
@@ -408,7 +408,7 @@ h1 {
   align-items: center;
 }
 
-.trending__frame-small .button-play__wrap.small {
+.trending__frame-popular .button-play__wrap.small {
   width: 1.8rem;
   height: 1.8rem;
 }
