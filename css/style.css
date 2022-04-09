@@ -70,9 +70,9 @@ h1 {
 .grid {
   display: grid;
   grid-template-areas: 
-  "my-header my-header" 
-  "my-aside my-main" 
-  "my-aside my-main";
+  "my-header my-header my-header" 
+  "my-aside my-main my-main" 
+  "my-aside my-main my-main";
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   gap: 8rem 5.9rem;
 }
