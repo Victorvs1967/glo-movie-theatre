@@ -222,9 +222,6 @@ h1 {
   line-height: 117%;
 }
 
-.main-display__name {
-}
-
 .main-display__header {
   font-weight: 700;
   font-size: 2.4rem;
@@ -256,6 +253,11 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   background: none;
+}
+
+.button-play img {
+  margin-left: .2rem;
+  margin-top: .2rem;
 }
 
 .title {
@@ -413,10 +415,8 @@ h1 {
   height: 1.8rem;
 }
 
-.button-play__wrap.small .button-play img {
+.trending__frame-popular .button-play__wrap.small .button-play img {
   width: .66rem;
-  margin-left: .2rem;
-  margin-top: .2rem;
 }
 
 .trending__rating img {
