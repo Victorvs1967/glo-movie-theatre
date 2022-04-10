@@ -1,18 +1,18 @@
-@font-face{
+@font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
-@font-face{
+@font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
-@font-face{
+@font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Bold.ttf') format('truetype');
   font-weight: 700;
@@ -110,14 +110,6 @@ h1 {
 
 /* header */
 .header__wrap {
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
-  padding-left: 18rem;
-  box-shadow: 0 .4rem 1rem rgba(255, 255, 255, 0.07); */
   display: flex;
   align-items: center;
   background: rgba(255, 255, 255, 0.01);
@@ -327,7 +319,7 @@ h1 {
   background-position: center;
 }
 
-/* darking variant */
+/* darking frame another variant */
 /* .main-display__trailer:after, 
 .trending__frame:after, 
 .trending__frame-popular:after,
