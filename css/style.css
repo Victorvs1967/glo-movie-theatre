@@ -627,11 +627,11 @@ h1 {
   z-index: 200;
 }
 
-.close {
-  display: none;
-}
-
 .modal__inner {
   width: 100rem;
   height: 62rem;
+}
+
+.close {
+  display: none;
 }
