@@ -635,7 +635,7 @@ h1 {
 }
 
 .modal span {
-  margin-top: 13rem;
+  margin-top: calc(50% - 78rem);
   margin-right: 38rem;
   position: absolute;
   top: 10px;
