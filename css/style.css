@@ -113,18 +113,20 @@ h1 {
 .header__wrap {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: rgba(255, 255, 255, 0.01);
 }
 
 .header__logo {
-  margin-right: 7rem;
+  /* margin-right: 7rem; */
   font-size: 6.4rem;
   line-height: 117%;
   font-weight: 700;
 }
 
 .header__nav {
-  margin-right: 9.2rem;
+  max-width: 45rem;
+  /* margin-right: 9.2rem; */
 }
 
 .header__nav a {
@@ -140,7 +142,7 @@ h1 {
 .header__find {
   width: 33rem;
   height: 4.1rem;
-  margin-right: 3.9rem;
+  /* margin-right: 3.9rem; */
   border-radius: .8rem;
 }
 
@@ -168,7 +170,7 @@ h1 {
 
 .header__date {
   text-align: center;
-  margin-right: 8.6rem;
+  /* margin-right: 8.6rem; */
 }
 
 .header__time {
