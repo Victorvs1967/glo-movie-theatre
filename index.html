@@ -32,69 +32,75 @@
           <div class="header__day">March 30</div>
         </div>
         <div class="header__person">
-          <img src="./img/avatar.jpeg" alt="avatar">
+          <a href="#">
+            <img src="./img/avatar.jpeg" alt="avatar">
+          </a>
         </div>
       </div>
     </header>
 
     <aside class="aside box-init">
-      <div class="aside__title-wrap">
-        <h2 class="aside__header">New trailers</h2>
-        <div class="aside__sort">
-          <div class="aside__sort-text">Sort By</div>
-          <div class="aside__sort-select">
-            <span>Today</span>
-            <div class="aside__sort-arrows">
-              <img src="./img/arrow-up.svg" alt="arrow-up">
-              <img src="./img/arrow-down.svg" alt="arrow-down">
+      <div class="aside__wrap">
+        <div class="aside__top">
+          <div class="aside__title-wrap">
+            <h2 class="aside__header">New trailers</h2>
+            <div class="aside__sort">
+              <div class="aside__sort-text">Sort By</div>
+              <div class="aside__sort-select">
+                <span>Today</span>
+                <div class="aside__sort-arrows">
+                  <img src="./img/arrow-up.svg" alt="arrow-up">
+                  <img src="./img/arrow-down.svg" alt="arrow-down">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="aside__trailer">
+            <div class="aside__trailer-views">Views 4.5k</div>
+            <div class="aside__trailer-title">
+              <h2 class="aside__trailer-header">Batman 2022</h2>
+              <div class="aside__trailer-date">Dec 2022</div>
+            </div>
+            <div class="button-play__wrap">
+              <button class="button-play" type="button">
+                <img src="./img/triangle.svg" alt="play">
+              </button>
+            </div>
+          </div>
+          <div class="aside__trailer">
+            <div class="aside__trailer-views">Views 4.5k</div>
+            <div class="aside__trailer-title">
+              <h2 class="aside__trailer-header">Batman 2022</h2>
+              <div class="aside__trailer-date">Dec 2022</div>
+            </div>
+            <div class="button-play__wrap">
+              <button class="button-play" type="button">
+                <img src="./img/triangle.svg" alt="play">
+              </button>
             </div>
           </div>
         </div>
-      </div>
-      <div class="aside__trailer">
-        <div class="aside__trailer-views">Views 4.5k</div>
-        <div class="aside__trailer-title">
-          <h2 class="aside__trailer-header">Batman 2022</h2>
-          <div class="aside__trailer-date">Dec 2022</div>
-        </div>
-        <div class="button-play__wrap">
-          <button class="button-play" type="button">
-            <img src="./img/triangle.svg" alt="play">
-          </button>
-        </div>
-      </div>
-      <div class="aside__trailer">
-        <div class="aside__trailer-views">Views 4.5k</div>
-        <div class="aside__trailer-title">
-          <h2 class="aside__trailer-header">Batman 2022</h2>
-          <div class="aside__trailer-date">Dec 2022</div>
-        </div>
-        <div class="button-play__wrap">
-          <button class="button-play" type="button">
-            <img src="./img/triangle.svg" alt="play">
-          </button>
-        </div>
-      </div>
-      <div class="aside__bottom">
-        <div class="aside__bottom-favorite">
-          <h2>Favourite genres</h2>
-          <div class="aside__bottom-genres">
-            <span class="genres-item" style="--bg: #8066F6">Action</span>
-            <span class="genres-item" style="--bg: #E1784F">Western</span>
-            <span class="genres-item" style="--bg: #8066F6">Adventures</span>
-            <span class="genres-item" style="--bg: #E1784F">Drama</span>
-            <span class="genres-item" style="--bg: #63CFE1">Comedy</span>
+        <div class="aside__bottom">
+          <div class="aside__bottom-favorite">
+            <h2>Favourite genres</h2>
+            <div class="aside__bottom-genres">
+              <span class="genres-item" style="--bg: #8066F6">Action</span>
+              <span class="genres-item" style="--bg: #E1784F">Western</span>
+              <span class="genres-item" style="--bg: #8066F6">Adventures</span>
+              <span class="genres-item" style="--bg: #E1784F">Drama</span>
+              <span class="genres-item" style="--bg: #63CFE1">Comedy</span>
+            </div>
           </div>
-        </div>
-        <div class="aside__bottom-footer">
-          <div class="aside__bottom-add">
-            <span>+</span>
-            <h3>Add your favourite genres</h3>
-          </div>
-          <div class="aside__bottom-genres">
-            <span class="genres-item" style="--bg: #2B2A2F">Adventures</span>
-            <span class="genres-item" style="--bg: #2B2A2F">Drama</span>
-            <span class="genres-item" style="--bg: #2B2A2F">Comedy</span>
+          <div class="aside__bottom-footer">
+            <div class="aside__bottom-add">
+              <span>+</span>
+              <h3>Add your favourite genres</h3>
+            </div>
+            <div class="aside__bottom-genres">
+              <span class="genres-item" style="--bg: #2B2A2F">Adventures</span>
+              <span class="genres-item" style="--bg: #2B2A2F">Drama</span>
+              <span class="genres-item" style="--bg: #2B2A2F">Comedy</span>
+            </div>
           </div>
         </div>
       </div>
@@ -233,7 +239,15 @@
         </div>
       </section>
     </main>
-
+  </div>
+  <div class="modal close">
+    <div class="modal__inner">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Sdp6VL_NBnY" 
+      frameborder="0" title="Youtube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+    </div>
   </div>
 </body>
 </html>
