@@ -635,17 +635,15 @@ h1 {
 }
 
 .modal span {
-  margin-top: calc(50% - 78rem);
-  margin-right: 38rem;
   position: absolute;
-  top: 10px;
-  right: 0;
-  width: 4rem;
-  height: 4rem;
+  top: 2rem;
+  right: 2rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
-  padding-top: .5rem;
+  padding-top: .4rem;
   background: #fff;
   color: #000;
   cursor: pointer;
